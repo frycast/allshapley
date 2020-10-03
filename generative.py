@@ -2,6 +2,8 @@
 This is just me working my way through the keras tutorial
 for researchers: 
 https://keras.io/getting_started/intro_to_keras_for_researchers/
+
+I've read up to the heading 'Layer gradients'
 """
 
 # %%
