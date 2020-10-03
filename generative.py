@@ -119,12 +119,3 @@ with tf.GradientTape() as outer_tape:
         dc_da = tape.gradient(c, a)
     d2c_da2 = outer_tape.gradient(dc_da, a)
     print(d2c_da2)
-
-"""
-Keras
------
-The Layer class is the fundamental abstraction in Keras. 
-A Layer encapsulates a state (weights) and some computation 
-(defined in the call method).
-"""
-# %%
