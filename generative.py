@@ -6,6 +6,9 @@ https://keras.io/getting_started/intro_to_keras_for_researchers/
 I've read up to the heading 'Layer gradients'
 """
 
+# conda create -n tf tensorflow
+# conda activate tf #(or switch to interpreter in env tf)
+
 # %%
 import tensorflow as tf
 from tensorflow import keras
